@@ -1,0 +1,6 @@
+/* Preserve the page's responsive canvas size over the engine's fallback pin.
+   The engine still owns backing-store sizing, scaling, and letterboxing. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
